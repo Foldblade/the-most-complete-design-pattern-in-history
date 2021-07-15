@@ -22,3 +22,5 @@
 
 扩展：John Vlissides（1961 - 2005），GoF 成员，斯坦福大学计算机科学博士，原 IBM 研究员，因患脑瘤于 2005 年 11 月 24 日（感恩节）病故，享年 44 岁，为纪念他的贡献，ACM SIGPLAN 特设立 John Vlissides 奖。
 
+ 【作者：刘伟  [http://blog.csdn.net/lovelion](http://blog.csdn.net/lovelion)】
+

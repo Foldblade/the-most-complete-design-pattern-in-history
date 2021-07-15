@@ -6,6 +6,8 @@
 
 原地址：[https://blog.csdn.net/lovelion/article/details/17517213](https://blog.csdn.net/lovelion/article/details/17517213)
 
+授权协议：CC BY-SA 4.0  \[!\[CC BY-SA 4.0\]\[cc-by-sa-shield\]\]\[cc-by-sa\]
+
 > 圣诞献礼！
 
 > 2012年-2013年，Sunny 在 CSDN 技术博客中陆续发表了100多篇与设计模式学习相关的文章，涵盖了七个面向对象设计原则和24个设计模式（23个GoF设计模式 +  简单工厂模式），为了方便大家学习，现将所有文章的链接进行了整理，希望能给各位带来帮助！
@@ -18,6 +20,8 @@
 
 祝各位光荣的劳动者五一节快乐！
 
+本人工作同样以 CC BY-SA 4.0 形式授权。
+
 ---
 
 咕咕咕，软考过了之后才发现自己根本没有在五一期间排版出来……慢慢捡起来罢。
@@ -28,6 +32,6 @@
 
 主要改动：
 
-* 为适配 Markdown 特性而修改了部分内容
+* 为适配 Markdown 特性而修改了部分内容，并不会完全保留原文的颜色等
 * 文中出现多次“微笑”字样，但却已无法查看表情了。查看链接为 [http://static.blog.csdn.net/xheditor/xheditor\_emot/default/smile.gif](http://static.blog.csdn.net/xheditor/xheditor_emot/default/smile.gif)，通过[某下载站保留的 xheditor 代码](http://www.downcc.com/soft/21720.html)，本人有理由相信原文中用的是![](.gitbook/assets/smile.gif)这个表情。本人期望 Markdown 排版过程中尽可能地保持纯文本性，故在排版过程中均用 Emoji 🙂 代替，并增删前后方的标点。
 

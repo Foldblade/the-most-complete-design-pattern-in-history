@@ -27,30 +27,30 @@
 
 | 类型 | 模式名称 | 学习难度 | 使用频率 |
 | :--- | :--- | :--- | :--- |
-| 创建型模式Creational Pattern | 单例模式Singleton Pattern | ★☆☆☆☆ | ★★★★☆ |
+| 创建型模式 Creational Pattern | 单例模式Singleton Pattern | ★☆☆☆☆ | ★★★★☆ |
 |  | 简单工厂模式Simple Factory Pattern | ★★☆☆☆ | ★★★☆☆ |
 |  | 工厂方法模式Factory Method Pattern | ★★☆☆☆ | ★★★★★ |
 |  | 抽象工厂模式Abstract Factory Pattern | ★★★★☆ | ★★★★★ |
-|  | 原型模式Prototype Pattern | ★★★☆☆ | ★★★☆☆ |
-|  | 建造者模式Builder Pattern | ★★★★☆ | ★★☆☆☆ |
-| 结构型模式Structural Pattern | 适配器模式Adapter Pattern | ★★☆☆☆ | ★★★★☆ |
-|  | 桥接模式Bridge Pattern | ★★★☆☆ | ★★★☆☆ |
-|  | 组合模式Composite Pattern | ★★★☆☆ | ★★★★☆ |
-|  | 装饰模式Decorator Pattern | ★★★☆☆ | ★★★☆☆ |
-|  | 外观模式Façade Pattern | ★☆☆☆☆ | ★★★★★ |
-|  | 享元模式Flyweight Pattern | ★★★★☆ | ★☆☆☆☆ |
-|  | 代理模式Proxy Pattern | ★★★☆☆ | ★★★★☆ |
-| 行为型模式Behavioral Pattern | 职责链模式Chain of Responsibility Pattern | ★★★☆☆ | ★★☆☆☆ |
-|  | 命令模式Command Pattern | ★★★☆☆ | ★★★★☆ |
-|  | 解释器模式Interpreter Pattern | ★★★★★ | ★☆☆☆☆ |
-|  | 迭代器模式Iterator Pattern | ★★★☆☆ | ★★★★★ |
-|  | 中介者模式Mediator Pattern | ★★★☆☆ | ★★☆☆☆ |
-|  | 备忘录模式Memento Pattern | ★★☆☆☆ | ★★☆☆☆ |
-|  | 观察者模式Observer Pattern | ★★★☆☆ | ★★★★★ |
-|  | 状态模式State Pattern | ★★★☆☆ | ★★★☆☆ |
-|  | 策略模式Strategy Pattern | ★☆☆☆☆ | ★★★★☆ |
-|  | 模板方法模式Template Method Pattern | ★★☆☆☆ | ★★★☆☆ |
-|  | 访问者模式Visitor Pattern | ★★★★☆ | ★☆☆☆☆ |
+|  | 原型模式 Prototype Pattern | ★★★☆☆ | ★★★☆☆ |
+|  | 建造者模式 Builder Pattern | ★★★★☆ | ★★☆☆☆ |
+| 结构型模式 Structural Pattern | 适配器模式 Adapter Pattern | ★★☆☆☆ | ★★★★☆ |
+|  | 桥接模式 Bridge Pattern | ★★★☆☆ | ★★★☆☆ |
+|  | 组合模式 Composite Pattern | ★★★☆☆ | ★★★★☆ |
+|  | 装饰模式 Decorator Pattern | ★★★☆☆ | ★★★☆☆ |
+|  | 外观模式 Facade Pattern | ★☆☆☆☆ | ★★★★★ |
+|  | 享元模式 Flyweight Pattern | ★★★★☆ | ★☆☆☆☆ |
+|  | 代理模式 Proxy Pattern | ★★★☆☆ | ★★★★☆ |
+| 行为型模式 Behavioral Pattern | 职责链模式 Chain of Responsibility Pattern | ★★★☆☆ | ★★☆☆☆ |
+|  | 命令模式 Command Pattern | ★★★☆☆ | ★★★★☆ |
+|  | 解释器模式 Interpreter Pattern | ★★★★★ | ★☆☆☆☆ |
+|  | 迭代器模式 Iterator Pattern | ★★★☆☆ | ★★★★★ |
+|  | 中介者模式 Mediator Pattern | ★★★☆☆ | ★★☆☆☆ |
+|  | 备忘录模式 Memento Pattern | ★★☆☆☆ | ★★☆☆☆ |
+|  | 观察者模式 Observer Pattern | ★★★☆☆ | ★★★★★ |
+|  | 状态模式 State Pattern | ★★★☆☆ | ★★★☆☆ |
+|  | 策略模式 Strategy Pattern | ★☆☆☆☆ | ★★★★☆ |
+|  | 模板方法模式 Template Method Pattern | ★★☆☆☆ | ★★★☆☆ |
+|  | 访问者模式 Visitor Pattern | ★★★★☆ | ★☆☆☆☆ |
 
 【作者：刘伟 [http://blog.csdn.net/lovelion](http://blog.csdn.net/lovelion)】
 
