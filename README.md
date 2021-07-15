@@ -18,3 +18,16 @@
 
 祝各位光荣的劳动者五一节快乐！
 
+---
+
+咕咕咕，软考过了之后才发现自己根本没有在五一期间排版出来……慢慢捡起来罢。
+
+查看 Gitbook 释出的 Markdown 版：[https://foldblade.gitbook.io/the-most-complete-design-pattern-in-history/](https://foldblade.gitbook.io/the-most-complete-design-pattern-in-history/)
+
+---
+
+主要改动：
+
+* 为适配 Markdown 特性而修改了部分内容
+* 文中出现多次“微笑”字样，但却已无法查看表情了。查看链接为 [http://static.blog.csdn.net/xheditor/xheditor\_emot/default/smile.gif](http://static.blog.csdn.net/xheditor/xheditor_emot/default/smile.gif)，通过[某下载站保留的 xheditor 代码](http://www.downcc.com/soft/21720.html)，本人有理由相信原文中用的是![](.gitbook/assets/smile.gif)这个表情。本人期望 Markdown 排版过程中尽可能地保持纯文本性，故在排版过程中均用 Emoji 🙂 代替，并增删前后方的标点。
+
