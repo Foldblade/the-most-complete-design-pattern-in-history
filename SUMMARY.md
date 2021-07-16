@@ -11,4 +11,6 @@
 * [面向对象设计原则](ji-chu-zhi-shi/mian-xiang-dui-xiang-she-ji-yuan-ze/README.md)
   * [面向对象设计原则概述](ji-chu-zhi-shi/mian-xiang-dui-xiang-she-ji-yuan-ze/mian-xiang-dui-xiang-she-ji-yuan-ze-gai-shu.md)
   * [面向对象设计原则之单一职责原则](ji-chu-zhi-shi/mian-xiang-dui-xiang-she-ji-yuan-ze/mian-xiang-dui-xiang-she-ji-yuan-ze-zhi-dan-yi-zhi-ze-yuan-ze.md)
+  * [面向对象设计原则之开闭原则](ji-chu-zhi-shi/mian-xiang-dui-xiang-she-ji-yuan-ze/mian-xiang-dui-xiang-she-ji-yuan-ze-zhi-kai-bi-yuan-ze.md)
+  * [面向对象设计原则之里氏代换原则](ji-chu-zhi-shi/mian-xiang-dui-xiang-she-ji-yuan-ze/mian-xiang-dui-xiang-she-ji-yuan-ze-zhi-li-shi-dai-huan-yuan-ze.md)
 
