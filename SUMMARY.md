@@ -20,8 +20,8 @@
 
 ## 六个创建型模式
 
+* [工厂三兄弟之简单工厂模式](liu-ge-chuang-jian-xing-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi.md)
 * [简单工厂模式](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/README.md)
-  * [工厂三兄弟之简单工厂模式](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi.md)
   * [工厂三兄弟之简单工厂模式（一）：图表库的设计](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-yi-tu-biao-ku-de-she-ji.md)
   * [工厂三兄弟之简单工厂模式（二）：简单工厂模式概述](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-er-jian-dan-gong-chang-mo-shi-gai-shu.md)
   * [工厂三兄弟之简单工厂模式（三）：图表库的简单工厂模式解决方案](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-san-tu-biao-ku-de-jian-dan-gong-chang-mo-shi.md)

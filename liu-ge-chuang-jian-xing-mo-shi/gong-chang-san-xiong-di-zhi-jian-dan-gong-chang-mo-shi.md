@@ -8,32 +8,32 @@ Sunny 软件公司图表库设计人员提出了一个初始设计方案，将�
 
 ```text
 class Chart {
-	private String type; //图表类型
-	
-	public Chart(Object[][] data, String type) {
-		this.type = type;
-		if (type.equalsIgnoreCase("histogram")) {
-			//初始化柱状图
-		}
-		else if (type.equalsIgnoreCase("pie")) {
-			//初始化饼状图
-		}
-		else if (type.equalsIgnoreCase("line")) {
-			//初始化折线图
-		}
-	}
- 
-	public void display() {
-		if (this.type.equalsIgnoreCase("histogram")) {
-			//显示柱状图
-		}
-		else if (this.type.equalsIgnoreCase("pie")) {
-			//显示饼状图
-		}
-		else if (this.type.equalsIgnoreCase("line")) {
-			//显示折线图
-		}	
-	}
+    private String type; //图表类型
+
+    public Chart(Object[][] data, String type) {
+        this.type = type;
+        if (type.equalsIgnoreCase("histogram")) {
+            //初始化柱状图
+        }
+        else if (type.equalsIgnoreCase("pie")) {
+            //初始化饼状图
+        }
+        else if (type.equalsIgnoreCase("line")) {
+            //初始化折线图
+        }
+    }
+
+    public void display() {
+        if (this.type.equalsIgnoreCase("histogram")) {
+            //显示柱状图
+        }
+        else if (this.type.equalsIgnoreCase("pie")) {
+            //显示饼状图
+        }
+        else if (this.type.equalsIgnoreCase("line")) {
+            //显示折线图
+        }    
+    }
 }
 ```
 
@@ -63,7 +63,7 @@ class Chart {
 
 简单工厂模式的要点在于：**当你需要什么，只需要传入一个正确的参数，就可以获取你所需要的对象，而无须知道其创建细节。**简单工厂模式结构比较简单，其核心是工厂类的设计，其结构如图 1 所示：
 
-![&#x56FE;1  &#x7B80;&#x5355;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;&#x7ED3;&#x6784;&#x56FE;](../../.gitbook/assets/20130711143612921.jpg)
+![&#x56FE;1 &#x7B80;&#x5355;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;&#x7ED3;&#x6784;&#x56FE;](../.gitbook/assets/20130711143612921.jpg)
 
 在简单工厂模式结构图中包含如下几个角色：
 
@@ -73,7 +73,7 @@ class Chart {
 
 在简单工厂模式中，客户端通过工厂类来创建一个产品类的实例，而无须直接使用 **new** 关键字来创建对象，它是工厂模式家族中最简单的一员。
 
- 在使用简单工厂模式时，首先需要对产品类进行重构，**不能设计一个包罗万象的产品类，而需根据实际情况设计一个产品层次结构**，将所有产品类公共的代码移至抽象产品类，并在抽象产品类中声明一些抽象方法，以供不同的具体产品类来实现，典型的抽象产品类代码如下所示：
+在使用简单工厂模式时，首先需要对产品类进行重构，**不能设计一个包罗万象的产品类，而需根据实际情况设计一个产品层次结构**，将所有产品类公共的代码移至抽象产品类，并在抽象产品类中声明一些抽象方法，以供不同的具体产品类来实现，典型的抽象产品类代码如下所示：
 
 ```text
 abstract class Product {
@@ -81,7 +81,7 @@ abstract class Product {
     public void methodSame() {
         //公共方法的实现
     }
- 
+
     //声明抽象业务方法
     public abstract void methodDiff();
 }
@@ -113,7 +113,7 @@ class Factory {
             product = new ConcreteProductB();
             //初始化设置product
         }
-		    return product;
+            return product;
     }
 }
 ```
@@ -135,7 +135,7 @@ class Client {
 
 为了将 `Chart` 类的职责分离，同时将 `Chart` 对象的创建和使用分离，Sunny 软件公司开发人员决定使用简单工厂模式对图表库进行重构，重构后的结构如图 2 所示：
 
-![&#x56FE; 2 &#x56FE;&#x8868;&#x5E93;&#x7ED3;&#x6784;&#x56FE;](../../.gitbook/assets/20130711144554265.jpg)
+![&#x56FE; 2 &#x56FE;&#x8868;&#x5E93;&#x7ED3;&#x6784;&#x56FE;](../.gitbook/assets/20130711144554265.jpg)
 
 在图 2 中，`Chart` 接口充当抽象产品类，其子类 `HistogramChart`、`PieChart` 和`LineChart` 充当具体产品类，`ChartFactory` 充当工厂类。完整代码如下所示：
 
@@ -144,40 +144,40 @@ class Client {
 interface Chart {
     public void display();
 }
- 
+
 //柱状图类：具体产品类
 class HistogramChart implements Chart {
     public HistogramChart() {
         System.out.println("创建柱状图！");
     }
-	
+
     public void display() {
         System.out.println("显示柱状图！");
     }
 }
- 
+
 //饼状图类：具体产品类
 class PieChart implements Chart {
     public PieChart() {
         System.out.println("创建饼状图！");
     }
-	
+
     public void display() {
         System.out.println("显示饼状图！");
     }
 }
- 
+
 //折线图类：具体产品类
 class LineChart implements Chart {
     public LineChart() {
         System.out.println("创建折线图！");
     }
-	
+
     public void display() {
         System.out.println("显示折线图！");
     }
 }
- 
+
 //图表工厂类：工厂类
 class ChartFactory {
     //静态工厂方法
@@ -193,7 +193,7 @@ class ChartFactory {
         }
         else if (type.equalsIgnoreCase("line")) {
             chart = new LineChart();
-            System.out.println("初始化设置折线图！");			
+            System.out.println("初始化设置折线图！");            
         }
         return chart;
     }
@@ -225,9 +225,9 @@ class Client {
 
 `chart = ChartFactory.getChart("histogram");`
 
- 改为：
+改为：
 
- `chart = ChartFactory.getChart("pie");`
+`chart = ChartFactory.getChart("pie");`
 
 编译并运行程序，输出结果如下：
 
@@ -257,7 +257,7 @@ import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 import java.io.*;
- 
+
 public class XMLUtil {
     //该方法用于从XML配置文件中提取图表类型，并返回类型名
     public static String getChartType() {
@@ -267,7 +267,7 @@ public class XMLUtil {
             DocumentBuilder builder = dFactory.newDocumentBuilder();
             Document doc;                            
             doc = builder.parse(new File("config.xml")); 
-        
+
             //获取包含图表类型的文本节点
             NodeList nl = doc.getElementsByTagName("chartType");
             Node classNode = nl.item(0).getFirstChild();
@@ -299,11 +299,11 @@ class Client {
 
 🤔思考：在简单工厂模式中增加新的具体产品时是否符合“开闭原则”？如果不符合，原有系统需作出哪些修改？
 
-##  5. 简单工厂模式的简化
+## 5. 简单工厂模式的简化
 
 有时候，为了简化简单工厂模式，我们可以将抽象产品类和工厂类合并，将静态工厂方法移至抽象产品类中，如图 3 所示：
 
-![&#x56FE; 3  &#x7B80;&#x5316;&#x7684;&#x7B80;&#x5355;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;](../../.gitbook/assets/20130711145238171.jpg)
+![&#x56FE; 3 &#x7B80;&#x5316;&#x7684;&#x7B80;&#x5355;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;](../.gitbook/assets/20130711145238171.jpg)
 
 在图 3 中，客户端可以通过产品父类的静态工厂方法，根据参数的不同创建不同类型的产品子类对象，这种做法在 JDK 等类库和框架中也广泛存在。
 
@@ -338,3 +338,4 @@ class Client {
 🤔练习：使用简单工厂模式设计一个可以创建不同几何形状（如圆形、方形和三角形等）的绘图工具，每个几何图形都具有绘制 `draw()` 和擦除 `erase()` 两个方法，要求在绘制不支持的几何图形时，提示一个 `UnSupportedShapeException`。
 
 【作者：刘伟 [http://blog.csdn.net/lovelion](http://blog.csdn.net/lovelion)】
+
