@@ -37,4 +37,7 @@
 | 微笑 | ![](.gitbook/assets/smile.gif) | 🙂 |
 | 大笑 |  ![](.gitbook/assets/laugh.gif) | 😁 |
 | 疑问 | ![](.gitbook/assets/doubt.gif) | 🤔 |
+| 偷笑 | ![](.gitbook/assets/titter.gif) | 🤭 |
+
+
 
