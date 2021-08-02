@@ -24,6 +24,7 @@
 * [工厂三兄弟之工厂方法模式](liu-ge-chuang-jian-xing-mo-shi/gong-chang-san-xiong-di-zhi-gong-chang-fang-fa-mo-shi.md)
 * [工厂三兄弟之抽象工厂模式](liu-ge-chuang-jian-xing-mo-shi/gong-chang-san-xiong-di-zhi-chou-xiang-gong-chang-mo-shi.md)
 * [确保对象的唯一性——单例模式](liu-ge-chuang-jian-xing-mo-shi/que-bao-dui-xiang-de-wei-yi-xing-dan-li-mo-shi.md)
+* [对象的克隆——原型模式](liu-ge-chuang-jian-xing-mo-shi/dui-xiang-de-ke-long-yuan-xing-mo-shi.md)
 * [简单工厂模式](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/README.md)
   * [工厂三兄弟之简单工厂模式（一）：图表库的设计](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-yi-tu-biao-ku-de-she-ji.md)
   * [工厂三兄弟之简单工厂模式（二）：简单工厂模式概述](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-er-jian-dan-gong-chang-mo-shi-gai-shu.md)
