@@ -26,6 +26,8 @@
 
 咕咕咕，软考过了之后才发现自己根本没有在五一期间排版出来……慢慢捡起来罢。
 
+排版规范参照：[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
+
 查看 Gitbook 释出的版本：[https://foldblade.gitbook.io/the-most-complete-design-pattern-in-history/](https://foldblade.gitbook.io/the-most-complete-design-pattern-in-history/)
 
 主要改动：
