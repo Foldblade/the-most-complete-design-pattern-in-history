@@ -6,8 +6,6 @@
 
 原地址：[https://blog.csdn.net/lovelion/article/details/17517213](https://blog.csdn.net/lovelion/article/details/17517213)
 
-授权协议：CC BY-SA 4.0  \[!\[CC BY-SA 4.0\]\[[https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)\]\]\[[cc-by-sa](http://creativecommons.org/licenses/by-sa/4.0/)\]
-
 授权协议：CC BY-SA 4.0 [![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 > 圣诞献礼！
