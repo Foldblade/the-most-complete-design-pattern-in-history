@@ -26,9 +26,8 @@
 * [确保对象的唯一性——单例模式](liu-ge-chuang-jian-xing-mo-shi/que-bao-dui-xiang-de-wei-yi-xing-dan-li-mo-shi.md)
 * [对象的克隆——原型模式](liu-ge-chuang-jian-xing-mo-shi/dui-xiang-de-ke-long-yuan-xing-mo-shi.md)
 * [复杂对象的组装与创建——建造者模式](liu-ge-chuang-jian-xing-mo-shi/fu-za-dui-xiang-de-zu-zhuang-yu-chuang-jian-jian-zao-zhe-mo-shi.md)
-* [简单工厂模式](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/README.md)
-  * [工厂三兄弟之简单工厂模式（一）：图表库的设计](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-yi-tu-biao-ku-de-she-ji.md)
-  * [工厂三兄弟之简单工厂模式（二）：简单工厂模式概述](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-er-jian-dan-gong-chang-mo-shi-gai-shu.md)
-  * [工厂三兄弟之简单工厂模式（三）：图表库的简单工厂模式解决方案](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-san-tu-biao-ku-de-jian-dan-gong-chang-mo-shi.md)
-  * [工厂三兄弟之简单工厂模式（四）：图表库解决方案的改进，简单工厂模式的简化，简单工厂模式总结](liu-ge-chuang-jian-xing-mo-shi/jian-dan-gong-chang-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi-si-tu-biao-ku-jie-jue-fang-an-de-gai-jin-jian.md)
+
+## 七个结构型模式
+
+* [不兼容结构的协调——适配器模式](qi-ge-jie-gou-xing-mo-shi/bu-jian-rong-jie-gou-de-xie-tiao-kuo-pei-qi-mo-shi.md)
 
