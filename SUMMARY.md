@@ -30,4 +30,5 @@
 ## 七个结构型模式
 
 * [不兼容结构的协调——适配器模式](qi-ge-jie-gou-xing-mo-shi/bu-jian-rong-jie-gou-de-xie-tiao-kuo-pei-qi-mo-shi.md)
+* [处理多维度变化 —— 桥接模式](qi-ge-jie-gou-xing-mo-shi/chu-li-duo-wei-du-bian-hua-qiao-jie-mo-shi.md)
 
