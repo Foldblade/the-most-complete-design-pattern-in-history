@@ -23,12 +23,13 @@
 * [工厂三兄弟之简单工厂模式](liu-ge-chuang-jian-xing-mo-shi/gong-chang-san-xiong-di-zhi-jian-dan-gong-chang-mo-shi.md)
 * [工厂三兄弟之工厂方法模式](liu-ge-chuang-jian-xing-mo-shi/gong-chang-san-xiong-di-zhi-gong-chang-fang-fa-mo-shi.md)
 * [工厂三兄弟之抽象工厂模式](liu-ge-chuang-jian-xing-mo-shi/gong-chang-san-xiong-di-zhi-chou-xiang-gong-chang-mo-shi.md)
-* [确保对象的唯一性——单例模式](liu-ge-chuang-jian-xing-mo-shi/que-bao-dui-xiang-de-wei-yi-xing-dan-li-mo-shi.md)
-* [对象的克隆——原型模式](liu-ge-chuang-jian-xing-mo-shi/dui-xiang-de-ke-long-yuan-xing-mo-shi.md)
-* [复杂对象的组装与创建——建造者模式](liu-ge-chuang-jian-xing-mo-shi/fu-za-dui-xiang-de-zu-zhuang-yu-chuang-jian-jian-zao-zhe-mo-shi.md)
+* [确保对象的唯一性 —— 单例模式](liu-ge-chuang-jian-xing-mo-shi/que-bao-dui-xiang-de-wei-yi-xing-dan-li-mo-shi.md)
+* [对象的克隆 —— 原型模式](liu-ge-chuang-jian-xing-mo-shi/dui-xiang-de-ke-long-yuan-xing-mo-shi.md)
+* [复杂对象的组装与创建 —— 建造者模式](liu-ge-chuang-jian-xing-mo-shi/fu-za-dui-xiang-de-zu-zhuang-yu-chuang-jian-jian-zao-zhe-mo-shi.md)
 
 ## 七个结构型模式
 
-* [不兼容结构的协调——适配器模式](qi-ge-jie-gou-xing-mo-shi/bu-jian-rong-jie-gou-de-xie-tiao-kuo-pei-qi-mo-shi.md)
+* [不兼容结构的协调 —— 适配器模式](qi-ge-jie-gou-xing-mo-shi/bu-jian-rong-jie-gou-de-xie-tiao-kuo-pei-qi-mo-shi.md)
 * [处理多维度变化 —— 桥接模式](qi-ge-jie-gou-xing-mo-shi/chu-li-duo-wei-du-bian-hua-qiao-jie-mo-shi.md)
+* [树形结构的处理 —— 组合模式](qi-ge-jie-gou-xing-mo-shi/shu-xing-jie-gou-de-chu-li-zu-he-mo-shi.md)
 
